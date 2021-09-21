@@ -21,10 +21,10 @@ body {
 }
 
 .card {
-  height: 80vh;
+  height: 85vh;
   /* //background-color: lightcoral; */
   width: 20rem;
-  padding: 30px;
+  padding: 2.5rem;
   border-radius: 15px;
   box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
 }
@@ -62,21 +62,48 @@ body {
 }
 
 .info h3 {
-  font-size: 1.2rem;
-  color: #333;
+  font-size: 1rem;
+  color: #444;
   padding: 0.5rem 0rem;
-  font-weight: lighter;
+  font-weight: 700;
 }
 
 .colors {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 2rem 0rem 0rem 0rem;
 }
 
 .purchase {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 3rem;
+}
+
+.colors button {
+  padding: 0.2rem 0.7rem;
+  border-radius: 10px;
+  margin-bottom: 0rem;
+  background-color: #d4d4d4;
+  color: rgb(254, 70, 66);
+  font-weight: bolder;
+  font-size: 15px;
+  border: pink 0.9px solid;
+  cursor: pointer;
+}
+
+.purchase button {
+  padding: 0.9rem 5rem;
+  border-radius: 10px;
+  margin-top: 2rem;
+  background-color: #f1c40f;
+  border: yellow 1px solid;
+  font-size: 1rem;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.wow {
+  color: coral;
 }
